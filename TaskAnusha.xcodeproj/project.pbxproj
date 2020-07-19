@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B4EF5080E46847073AEF34C /* Pods_TaskAnushaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846333ACE9CA120A342B7768 /* Pods_TaskAnushaTests.framework */; };
+		38C02497F64A10656491E696 /* Pods_TaskAnusha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C4E9552BC437CE1260E601 /* Pods_TaskAnusha.framework */; };
+		4E3AF71432B1BB0A7B2240EB /* Pods_TaskAnusha_TaskAnushaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CDBA4716FC9C34A7ED0FE9A /* Pods_TaskAnusha_TaskAnushaUITests.framework */; };
 		A571941824C32B020018727E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A571941724C32B020018727E /* AppDelegate.swift */; };
 		A571941A24C32B020018727E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A571941924C32B020018727E /* SceneDelegate.swift */; };
 		A571941C24C32B020018727E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A571941B24C32B020018727E /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 		A571942724C32B040018727E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A571942524C32B040018727E /* LaunchScreen.storyboard */; };
 		A571943224C32B040018727E /* TaskAnushaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A571943124C32B040018727E /* TaskAnushaTests.swift */; };
 		A571943D24C32B040018727E /* TaskAnushaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A571943C24C32B040018727E /* TaskAnushaUITests.swift */; };
+		A571944B24C33AD70018727E /* credentials (3).plist in Resources */ = {isa = PBXBuildFile; fileRef = A571944A24C33AD70018727E /* credentials (3).plist */; };
+		A571944D24C342210018727E /* CurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A571944C24C342210018727E /* CurrencyViewController.swift */; };
+		A5BD9BEE24C45330000AFC2C /* CurrenciesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BD9BED24C45330000AFC2C /* CurrenciesTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14C4E9552BC437CE1260E601 /* Pods_TaskAnusha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskAnusha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDBA4716FC9C34A7ED0FE9A /* Pods_TaskAnusha_TaskAnushaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskAnusha_TaskAnushaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		704D96F7E5A2C336CCB771DE /* Pods-TaskAnushaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskAnushaTests.release.xcconfig"; path = "Target Support Files/Pods-TaskAnushaTests/Pods-TaskAnushaTests.release.xcconfig"; sourceTree = "<group>"; };
+		71ADDAE730293DA53B813D4D /* Pods-TaskAnusha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskAnusha.release.xcconfig"; path = "Target Support Files/Pods-TaskAnusha/Pods-TaskAnusha.release.xcconfig"; sourceTree = "<group>"; };
+		846333ACE9CA120A342B7768 /* Pods_TaskAnushaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskAnushaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B6DF21A5D0969DC118B469 /* Pods-TaskAnushaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskAnushaTests.debug.xcconfig"; path = "Target Support Files/Pods-TaskAnushaTests/Pods-TaskAnushaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E86150C70AD1DE4E4F79D1B /* Pods-TaskAnusha-TaskAnushaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskAnusha-TaskAnushaUITests.debug.xcconfig"; path = "Target Support Files/Pods-TaskAnusha-TaskAnushaUITests/Pods-TaskAnusha-TaskAnushaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A571941424C32B020018727E /* TaskAnusha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskAnusha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A571941724C32B020018727E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A571941924C32B020018727E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +64,11 @@
 		A571943824C32B040018727E /* TaskAnushaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskAnushaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A571943C24C32B040018727E /* TaskAnushaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAnushaUITests.swift; sourceTree = "<group>"; };
 		A571943E24C32B040018727E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A571944A24C33AD70018727E /* credentials (3).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "credentials (3).plist"; sourceTree = "<group>"; };
+		A571944C24C342210018727E /* CurrencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewController.swift; sourceTree = "<group>"; };
+		A5BD9BED24C45330000AFC2C /* CurrenciesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesTableViewCell.swift; sourceTree = "<group>"; };
+		B29B5740690AD057368281EE /* Pods-TaskAnusha-TaskAnushaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskAnusha-TaskAnushaUITests.release.xcconfig"; path = "Target Support Files/Pods-TaskAnusha-TaskAnushaUITests/Pods-TaskAnusha-TaskAnushaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EDC2580D8935B98A6FB64565 /* Pods-TaskAnusha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskAnusha.debug.xcconfig"; path = "Target Support Files/Pods-TaskAnusha/Pods-TaskAnusha.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38C02497F64A10656491E696 /* Pods_TaskAnusha.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B4EF5080E46847073AEF34C /* Pods_TaskAnushaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +92,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E3AF71432B1BB0A7B2240EB /* Pods_TaskAnusha_TaskAnushaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E2845C99C3FAE3F8F0A13C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14C4E9552BC437CE1260E601 /* Pods_TaskAnusha.framework */,
+				4CDBA4716FC9C34A7ED0FE9A /* Pods_TaskAnusha_TaskAnushaUITests.framework */,
+				846333ACE9CA120A342B7768 /* Pods_TaskAnushaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A571940B24C32B020018727E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +116,8 @@
 				A571943024C32B040018727E /* TaskAnushaTests */,
 				A571943B24C32B040018727E /* TaskAnushaUITests */,
 				A571941524C32B020018727E /* Products */,
+				EE04ADFFF24253B0D8B35EE0 /* Pods */,
+				4E2845C99C3FAE3F8F0A13C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,7 +136,10 @@
 			children = (
 				A571941724C32B020018727E /* AppDelegate.swift */,
 				A571941924C32B020018727E /* SceneDelegate.swift */,
+				A571944A24C33AD70018727E /* credentials (3).plist */,
 				A571941B24C32B020018727E /* ViewController.swift */,
+				A5BD9BED24C45330000AFC2C /* CurrenciesTableViewCell.swift */,
+				A571944C24C342210018727E /* CurrencyViewController.swift */,
 				A571941D24C32B020018727E /* Main.storyboard */,
 				A571942324C32B040018727E /* Assets.xcassets */,
 				A571942524C32B040018727E /* LaunchScreen.storyboard */,
@@ -131,6 +167,19 @@
 			path = TaskAnushaUITests;
 			sourceTree = "<group>";
 		};
+		EE04ADFFF24253B0D8B35EE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDC2580D8935B98A6FB64565 /* Pods-TaskAnusha.debug.xcconfig */,
+				71ADDAE730293DA53B813D4D /* Pods-TaskAnusha.release.xcconfig */,
+				8E86150C70AD1DE4E4F79D1B /* Pods-TaskAnusha-TaskAnushaUITests.debug.xcconfig */,
+				B29B5740690AD057368281EE /* Pods-TaskAnusha-TaskAnushaUITests.release.xcconfig */,
+				84B6DF21A5D0969DC118B469 /* Pods-TaskAnushaTests.debug.xcconfig */,
+				704D96F7E5A2C336CCB771DE /* Pods-TaskAnushaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A571944124C32B040018727E /* Build configuration list for PBXNativeTarget "TaskAnusha" */;
 			buildPhases = (
+				D28121ECEB09248B76185682 /* [CP] Check Pods Manifest.lock */,
 				A571941024C32B020018727E /* Sources */,
 				A571941124C32B020018727E /* Frameworks */,
 				A571941224C32B020018727E /* Resources */,
+				3ACB8C43C1B79FFD4CB56975 /* [CP] Embed Pods Frameworks */,
+				27137D23C0B02234B99039FA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,6 +207,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A571944424C32B040018727E /* Build configuration list for PBXNativeTarget "TaskAnushaTests" */;
 			buildPhases = (
+				C28973A2CD2306975D3A9E7B /* [CP] Check Pods Manifest.lock */,
 				A571942924C32B040018727E /* Sources */,
 				A571942A24C32B040018727E /* Frameworks */,
 				A571942B24C32B040018727E /* Resources */,
@@ -173,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A571944724C32B040018727E /* Build configuration list for PBXNativeTarget "TaskAnushaUITests" */;
 			buildPhases = (
+				43C6A0DE38DB76F9D1898A00 /* [CP] Check Pods Manifest.lock */,
 				A571943424C32B040018727E /* Sources */,
 				A571943524C32B040018727E /* Frameworks */,
 				A571943624C32B040018727E /* Resources */,
+				5A0E9DF247E71B8E87EC1263 /* [CP] Embed Pods Frameworks */,
+				B8579DA5633B3D87B1A48422 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A571942724C32B040018727E /* LaunchScreen.storyboard in Resources */,
+				A571944B24C33AD70018727E /* credentials (3).plist in Resources */,
 				A571942424C32B040018727E /* Assets.xcassets in Resources */,
 				A571941F24C32B020018727E /* Main.storyboard in Resources */,
 			);
@@ -257,6 +314,143 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27137D23C0B02234B99039FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskAnusha/Pods-TaskAnusha-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskAnusha/Pods-TaskAnusha-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaskAnusha/Pods-TaskAnusha-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3ACB8C43C1B79FFD4CB56975 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskAnusha/Pods-TaskAnusha-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskAnusha/Pods-TaskAnusha-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaskAnusha/Pods-TaskAnusha-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43C6A0DE38DB76F9D1898A00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaskAnusha-TaskAnushaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A0E9DF247E71B8E87EC1263 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskAnusha-TaskAnushaUITests/Pods-TaskAnusha-TaskAnushaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskAnusha-TaskAnushaUITests/Pods-TaskAnusha-TaskAnushaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaskAnusha-TaskAnushaUITests/Pods-TaskAnusha-TaskAnushaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8579DA5633B3D87B1A48422 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskAnusha-TaskAnushaUITests/Pods-TaskAnusha-TaskAnushaUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskAnusha-TaskAnushaUITests/Pods-TaskAnusha-TaskAnushaUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaskAnusha-TaskAnushaUITests/Pods-TaskAnusha-TaskAnushaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C28973A2CD2306975D3A9E7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaskAnushaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D28121ECEB09248B76185682 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaskAnusha-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A571941024C32B020018727E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,8 +458,10 @@
 			files = (
 				A571941C24C32B020018727E /* ViewController.swift in Sources */,
 				A571941824C32B020018727E /* AppDelegate.swift in Sources */,
+				A5BD9BEE24C45330000AFC2C /* CurrenciesTableViewCell.swift in Sources */,
 				A571942224C32B020018727E /* TaskAnusha.xcdatamodeld in Sources */,
 				A571941A24C32B020018727E /* SceneDelegate.swift in Sources */,
+				A571944D24C342210018727E /* CurrencyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +632,7 @@
 		};
 		A571944224C32B040018727E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDC2580D8935B98A6FB64565 /* Pods-TaskAnusha.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +650,7 @@
 		};
 		A571944324C32B040018727E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71ADDAE730293DA53B813D4D /* Pods-TaskAnusha.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +668,7 @@
 		};
 		A571944524C32B040018727E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84B6DF21A5D0969DC118B469 /* Pods-TaskAnushaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +690,7 @@
 		};
 		A571944624C32B040018727E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 704D96F7E5A2C336CCB771DE /* Pods-TaskAnushaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +712,7 @@
 		};
 		A571944824C32B040018727E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E86150C70AD1DE4E4F79D1B /* Pods-TaskAnusha-TaskAnushaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +732,7 @@
 		};
 		A571944924C32B040018727E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B29B5740690AD057368281EE /* Pods-TaskAnusha-TaskAnushaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
